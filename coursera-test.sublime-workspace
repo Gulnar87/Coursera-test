@@ -7,6 +7,30 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "body { background-color: #0D8B74; \n color: #000;\n font-family: 'Slabo 27px', serif;\n font-size: 16px;\n}\n\n/*   HEADER   */\n\n#header-nav { background-color: #E67E22;\n border-radius: 0;\n border: 2px solid black;\n padding-bottom: 0px;\n padding-top: 30px;\n box-shadow: 0 1px 5px 1px;\n}\n\n.navbar-brand {\n margin-bottom: 30px;\n}\n\n.navbar-brand h1 {\n  font-family: 'Berkshire Swash', cursive;\n  margin-bottom: 0;\n  margin-top: 0;\n  font-size: 2em;\n  text-align: left;\n  font-weight: bold;\n  text-shadow: 1px 1px 1px #222;\n  line-height: .8;\n  color: #000;\n}\n\n.navbar-brand a:hover, .navbar-brand a:focus { \n text-decoration: none;\n}\n\n.navbar-header button.navbar-toggle, .navbar-header .icon-bar {\n  border: 1px solid #000;\n}\n\n#nav-list { background-color: #7F928F;\n\tmargin-bottom: 0;\n\tmargin-top: 0;\n  padding-top: 10px;\n  padding-bottom: 10px;\n}\n\n#nav-list a {\n color: #000 ; \n}\n\n#nav-list a:hover {\n background: #E67E22; box-shadow: 0 1px 5px 1px; font-size: 25px;\n}\n\n/*     END OF HEADER     */\n \n/*      HOME PAGE       */\n\n\n #home-tile { height: 700px; }\n\n #menu-title {\n  margin-bottom: 20px;\n  margin-top: 20px; font-weight: bold; font-size: font-size: 2em;;\n}\n\n.item-description {  background-color: #7F928F; margin-bottom: 30px;  box-shadow: 0 1px 5px 1px;\npadding: 20px; } \n\n.menu-item-title { font-weight: bold; margin-top: 0;}\n\n\n#back-to-top:hover, #back-to-top:focus { text-decoration: none; \n  }\n\n#back-to-top:hover {font-size: 25px;}\n\n#back-to-top { padding: 20px; color: black; font-weight: bold; \n\n  }\n\n/********** Large devices only **********/\n@media (min-width: 1200px) {\n  {\n        }\n}",
+			"file": "module3-solution-optional/css/styles.css",
+			"file_size": 1623,
+			"file_write_time": 131547067500000000,
+			"settings":
+			{
+				"buffer_size": 1600,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"zxx\">\n<head>\n\t <meta charset=\"utf-8\">\n\t <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" >\n\t <title>Assignment Solution for Module 3</title>\n\t <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"css/styles.css\">\n    <link href=\"https://fonts.googleapis.com/css?family=Berkshire+Swash\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Slabo+27px\" rel=\"stylesheet\">\n\n</head>\n<body>\n\t<header>\n\t\t<nav id=\"header-nav\" class=\"navbar navbar-default\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"navbar-header\">\n\t\t\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t\t\t<a href=\"index.html\"> <h1>Food, LLC</h1></a>\n\t\t\t\t\t</div>\n\t\t\t\t     <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#collapsable-nav\" aria-expanded=\"false\">\n\t\t\t\t     \t<span class=\"sr-only\">Toggle navigation</span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n                        <span class=\"icon-bar\"></span>\n\t\t\t\t\t </button>\n\t\t\t\t</div>\n\t\t\t\t<div id=\"collapsable-nav\" class=\"collapse navbar-collapse\">\n\t\t\t\t\t<ul id=\"nav-list\" class=\"nav navbar-nav navbar-right visible-xs\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<li> <a href=\"#chicken\" class=\"text-center\"> Chicken</a></li>\n\t\t\t\t\t\t<li> <a href=\"#beef\" class=\"text-center\">Beef</a></li>\n\t\t\t\t\t\t<li> <a href=\"#sushi\" class=\"text-center\"> Sushi</a></li>\n\n\t\t\t\t\t</ul>\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t</nav>\n\t\t\n\t</header>\n\n\t<div id=\"main-content\" class=\"container\">\n\t\t<h2 id=\"menu-title\" id=\"top\" class=\"text-center\"> Our Menu </h2>\n\t\t<div id=\"home-tile\" class=\"row\"> \n\t\t\t<div class=\"col-md-4 col-sm-6 col-xs-12\"> \n\t\t\t\t<div id=\"chicken\" class=\"item-description\"> \n\t\t\t\t\t<h3  class=\"menu-item-title text-center\"> Chicken </h3>\n\t\t\t\t <p class=\"menu-item-details\">  Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. </p> \n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\n\t\t\t<div class=\"col-md-4 col-sm-6 col-xs-12\"> \n\t\t\t\t<div id=\"beef\" class=\"item-description\">\n\t\t\t\t <h3 class=\"menu-item-title text-center\"> Beef </h3>\n\t\t\t\t <p class=\"menu-item-details\">  Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>\n\t\t\t\t</div>\n\t\t\t\t\n\n\t\t\t</div>\n\n\t\t\t<div  class=\"col-md-4 col-sm-12 col-xs-12\"> \n\t\t\t\t<div id=\"sushi\" class=\"item-description\"> \n\t\t\t\t\t<h3  class=\"menu-item-title text-center\"> Sushi </h3>\n\t\t\t\t <p class=\"menu-item-details\">  Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. </p>\n\t\t\t    </div>\n\t\t\t\t\t\n\t\t    </div>\n\t\t\t\t\n\t\t</div>\n\n       <div > <a id=\"back-to-top\" href=\"#top\"> Back to Top </a> </div>\n\n\t</div>\n\n  <script src=\"js/jquery-1.11.3.min.js\"></script>\n  <script src=\"js/bootstrap.min.js\"></script>\n  <script src=\"js/script.js\"></script>\n</body>\n</html>",
+			"file": "module3-solution-optional/index.html",
+			"file_size": 8545,
+			"file_write_time": 131547070280000000,
+			"settings":
+			{
+				"buffer_size": 8542,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -53,21 +77,25 @@
 		"/Users/gulnarmammadova/Coursera-test/module2-solution/css",
 		"/Users/gulnarmammadova/Coursera-test/module3-solution",
 		"/Users/gulnarmammadova/Coursera-test/module3-solution/css",
-		"/Users/gulnarmammadova/Coursera-test/module3-solution/fonts",
-		"/Users/gulnarmammadova/Coursera-test/module3-solution/js"
+		"/Users/gulnarmammadova/Coursera-test/module3-solution/js",
+		"/Users/gulnarmammadova/Coursera-test/module3-solution-optional",
+		"/Users/gulnarmammadova/Coursera-test/module3-solution-optional/css"
 	],
 	"file_history":
 	[
 		"/Users/gulnarmammadova/Coursera-test/module3-solution/css/styles.css",
+		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture38/after/css/styles.css",
 		"/Users/gulnarmammadova/Coursera-test/module3-solution/index.html",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture38/after/index.html",
-		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture38/after/css/styles.css",
+		"/Users/gulnarmammadova/Coursera-test/module3-solution-optional/index.html",
+		"/Users/gulnarmammadova/Coursera-test/module3-solution-optional/css/styles.css",
+		"/Users/gulnarmammadova/Coursera-test/module2-solution/index.html",
+		"/Users/gulnarmammadova/Coursera-test/module2-solution/css/styles.css",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture38/after/menu-categories.html",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture38/after/single-category.html",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture30/after/css/styles.css",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture30/after/index.html",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture25/index.html",
-		"/Users/gulnarmammadova/Coursera-test/module2-solution/index.html",
 		"/Users/gulnarmammadova/Coursera-test/module3-solution/CSS/style.css",
 		"/Users/gulnarmammadova/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/gulnarmammadova/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
@@ -182,10 +210,7 @@
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture09/same-directory.html",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture09/links-same-page.html",
 		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture09/links-external.html",
-		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture09/links-internal.html",
-		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture08/html-entities-before.html",
-		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture08/html-entities-after.html",
-		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture07/ordered-lists-after.html"
+		"/Users/gulnarmammadova/fullstack-course4/examples/Lecture09/links-internal.html"
 	],
 	"find":
 	{
@@ -220,8 +245,1143 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "module3-solution-optional/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1600,
+						"regions":
+						{
+							"gutter_color_0":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#0D8B74.png",
+								"regions":
+								[
+									[
+										0,
+										34
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1120":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1276
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1121":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1135":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1136":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1147":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1150":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1152":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1160":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1162":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										1162,
+										1258
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1203":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1224":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_123":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#E67E22.png",
+								"regions":
+								[
+									[
+										123,
+										163
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1270":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1283":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1292":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1298":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1313":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1315":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1334":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1335":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1344":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1345":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1348":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1353":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1357":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1358":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1362":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1368":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1375":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1376":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1380":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1390":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1394":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1397":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1334,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1404":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1405":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1414":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1415":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1418":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1420":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1427":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1428":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1432":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1443":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1445":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1446":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1450":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1453":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1454":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1457":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1460":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1466":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1467":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1469":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#bac.png",
+								"regions":
+								[
+									[
+										1404,
+										1441
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1471":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1484":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1485":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1489":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1503":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1506":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										1443,
+										1506
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_183":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										183,
+										208
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_35":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										35,
+										48
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_481":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#222.png",
+								"regions":
+								[
+									[
+										481,
+										513
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_533":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										533,
+										547
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_690":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										690,
+										715
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_719":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#7F928F.png",
+								"regions":
+								[
+									[
+										719,
+										757
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_855":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#000.png",
+								"regions":
+								[
+									[
+										855,
+										870
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_894":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#E67E22.png",
+								"regions":
+								[
+									[
+										894,
+										959
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								1332,
+								1332
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 736.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "module3-solution-optional/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8309,
+								8309
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										8305,
+										8308
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1705.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -318,7 +1478,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
